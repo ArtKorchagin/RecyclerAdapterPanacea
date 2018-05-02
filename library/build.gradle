@@ -23,8 +23,9 @@ android {
 }
 
 dependencies {
+
     /* Support Libraries */
-    api "com.android.support:recyclerview-v7:$supportVersion"
+    compileOnly "com.android.support:recyclerview-v7:$supportVersion"
 
     /* Tests */
     testImplementation 'junit:junit:4.12'
